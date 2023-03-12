@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ScoutsZone2</string>
+
+    <string-array name="numbers">
+        <item>Select time</item>
+        <item>Morning </item>
+        <item>Noon </item>
+        <item>Early Evening </item>
+        <item>Late Evening</item>
+    </string-array>
+
+    <string-array name="ZoneType">
+        <item>Select a type</item>
+        <item> Inside </item>
+        <item> Outside </item>
+        <item> Inside a room </item>
+    </string-array>
+
+    <string-array name="RoleType">
+        <item>Select a type</item>
+        <item> ד </item>
+        <item> ה </item>
+        <item> ו </item>
+        <item> ז </item>
+        <item> ח </item>
+        <item> חמישיות </item>
+        <item> צמיד </item>
+        <item> ראשצ </item>
+        <item> מרכז </item>
+        <item> בוגר </item>
+    </string-array>
+
+    <string-array name="GradeType">
+        <item>Select your grade</item>
+        <item> קורס </item>
+        <item> כיתה י </item>
+        <item>  כיתה יא </item>
+        <item> כיתה יב </item>
+        <item> בוגר </item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+branchCode	branchName
+1	Tzabar	
+2	Dizingoff
+3	Kehila	
+4	Hanac	
+5	Tzahala	

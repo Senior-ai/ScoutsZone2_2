@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.a.shon.scoutszone2">
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/scout_logo"
+        android:label="ScoutZone"
+        android:roundIcon="@drawable/round_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.GuidedetailsActivity"></activity>
+        <activity android:name=".Activities.OrderActivity" />
+        <activity android:name=".Activities.UpdatezoneActivity" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.RegisterActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Activities.ZoneActivity" />
+        <activity android:name=".Activities.PasswordActivity" />
+        <activity android:name=".Activities.ManagerActivity" />
+        <activity android:name=".Activities.UploadzoneActivity" />
+        <activity android:name=".Activities.ApproveActivity" />
+    </application>
+
+</manifest>

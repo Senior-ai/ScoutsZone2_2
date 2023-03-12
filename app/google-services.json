@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "103035945491",
+    "firebase_url": "https://scoutzone-327c5.firebaseio.com",
+    "project_id": "scoutzone-327c5",
+    "storage_bucket": "scoutzone-327c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103035945491:android:e51c9d24ec88cbc46f35e6",
+        "android_client_info": {
+          "package_name": "com.a.shon.scoutszone2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103035945491-meei4ob4tshftjcng3gmi7oli8l882cl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.a.shon.scoutszone2",
+            "certificate_hash": "16746e5df74813757b9fafe1f3888694b2947d49"
+          }
+        },
+        {
+          "client_id": "103035945491-avkm9h3g3cdlkie6boovqtqf57se9h0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAniGGviZ28q0DNCuHqD9XKEbmrSwwMFUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103035945491-avkm9h3g3cdlkie6boovqtqf57se9h0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

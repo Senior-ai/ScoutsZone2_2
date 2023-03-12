@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="33.3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvZonename"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="207dp"
+            android:fontFamily="@font/abraham_regular"
+            android:text="שם האזור- "
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvType"
+                android:layout_width="172dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/tvZonename"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/abraham_regular"
+                android:text="בתוך השבט"
+                android:textColor="@android:color/background_dark"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tvSpace"
+                android:layout_width="167dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tvType"
+                android:layout_alignStart="@+id/ivIsbusy"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/abraham_regular"
+                android:text="יכול להכיל עד-"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivIsbusy"
+        android:layout_width="156dp"
+        android:layout_height="52dp"
+        android:layout_weight="66.6"
+        app:srcCompat="@android:drawable/ic_menu_more" />
+</LinearLayout>
